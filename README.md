@@ -1,16 +1,45 @@
-# React + Vite
+# Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A weather app built with React and Tailwind CSS which gives you the information about the 
+current weather condition of a particular city in a beautiful card format.
 
-Currently, two official plugins are available:
+## Features
+* Shows weather condition with icon
+* Shows temperature and feels like temperature
+* Shows humidity and wind speed
+* Background color changes with change in weather
+* Shows country flag beside the city name
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Screenshot
+*(screenshot coming soon)*
 
-## React Compiler
+## Tech Stack Used 
+* React 
+* Vite
+* Tailwind CSS
+* Axios
+* OpenWeatherMap API
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## To run it locally
+Run these in your terminal one by one:-
+```
+git clone https://github.com/priyanshuyadavv19/weather-app.git
+cd weather-app
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+## Environment Variables
+1. Create an account at openweathermap.org
+2. Copy your API key
+3. Create a `.env` file in the root of the project
+4. Add this line: `VITE_WEATHER_API_KEY=your_api_key_here`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Acknowledgements
+OpenWeatherMap, flagcdn.com
+
+## Live demo
+[Coming soon]
+
+---
+Made by [Priyanshu Kumar Yadav](https://github.com/priyanshuyadavv19)
