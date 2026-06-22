@@ -11,7 +11,7 @@ current weather condition of a particular city in a beautiful card format.
 * Shows country flag beside the city name
 
 ## Screenshot
-*(screenshot coming soon)*
+<img width="1364" height="697" alt="weather-app1" src="https://github.com/user-attachments/assets/d06d9250-95da-4998-9571-2512da32a9b6" />
 
 ## Tech Stack Used 
 * React 
@@ -39,7 +39,7 @@ npm run dev
 OpenWeatherMap, flagcdn.com
 
 ## Live demo
-[Coming soon]
+[Weather App](https://weather-app-five-theta-49.vercel.app/)
 
 ---
 Made by [Priyanshu Kumar Yadav](https://github.com/priyanshuyadavv19)
